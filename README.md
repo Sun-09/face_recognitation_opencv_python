@@ -22,9 +22,19 @@ d.mqtt.client(pip install mqtt.client)
 
 # N.B:- 
 
-if you feel any problem installing the dlib library search in internet for binary files for dlib in the github or you can 
+**If you find any problem installing dlib library follow the steps-**
 
-also search the problem in internet.. (go through --- https://youtu.be/br9KGtWQErc)
+ 1. Go to the Link :- https://github.com/datamagic2020/Install-dlib 
+ 
+ 
+ 
+ 2. Download your Required .whl file according to Python Version
+ 
+ 3. Go To VsCode Terminal
+ 
+ 4. Enter the command - pip install "dlib-19.22.99-cp39-cp39-win_amd64.whl" in the terminal and press Enter.
+ 
+ 5. dlib library will be successfully installed
 
 
 # TIP:-
