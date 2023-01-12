@@ -15,9 +15,9 @@ Languages used by - Python, C/C++
 
 # IDLE Used :- 
 
-vsCode
+vsCode(Download at - https://code.visualstudio.com/Download)
 
-Ardiuno IDLE
+Ardiuno IDLE(Download at - https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
 
 
 # Libraries used -
