@@ -1,12 +1,20 @@
 # SIMPLE FACE-RECOGNITION CODE BY OPENCV & CONNECTION TO MQTT
 
+Hello all Coders Welcome to my Project. Here I make a Project where we run a opencv python code. The Code takes the video from your device's camera
+and it compares the faces of the video and a image(which we have to given previously.This image will be Admin's Image). If the both faces are match,then the
+1 value will publish to the mqtt broker with the help of **client.publish(.....)** commands in the opencv topic. The ESP32 is coded( you can see it in the
+https://github.com/Sun-09/face_recognitation_opencv_python/blob/master/opencv-via-MQTT-data-transfer/opencv-via-MQTT-data-transfer.ino)  so that it subscribed 
+to same topic and same mqtt client. So when the python will publish 1 value it will go to the ESP32 and whenever ESP32 will get 1 value it will turn LED..
 
 
-Languages used by - Python
+
+Languages used by - Python, C/C++
 
 # IDLE Used :- 
 
 vsCode
+
+Ardiuno IDLE
 
 
 # Libraries used -
@@ -20,6 +28,10 @@ b.dlib(pip install dlib==19.18.00)
 c.cmake(pip install cmake)
 
 d.mqtt.client(pip install mqtt.client)
+
+e. PubSubClient.h
+
+f. Wifi.h
 
 
 # N.B:- 
